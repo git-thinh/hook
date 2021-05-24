@@ -1,0 +1,15 @@
+{
+  "home": "https://chat.zalo.me",
+  "sites": [
+    {
+      "url": "https://id.zalo.me/account",
+      "js": "https://www.google-analytics.com/analytics.js",
+      "hook": "account"
+    },
+    {
+      "url": "https://chat.zalo.me",
+      "js": "https://stc-sp.zadn.vn/session-sdk/session-sdk.min.js",
+      "hook": "main"
+    }
+  ]
+}
