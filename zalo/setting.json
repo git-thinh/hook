@@ -1,14 +1,16 @@
 {
+  "name": "zalo",
   "url": "https://chat.zalo.me",
   "sites": [
     {
       "url": "https://id.zalo.me/account",
       "js": "https://www.google-analytics.com/analytics.js",
-      "name": "login"
+      "name": "login",
+      "wait_event": true
     },
     {
-      "url": "https://chat.zalo.me",
-      "js": "https://stc-sp.zadn.vn/session-sdk/session-sdk.min.js",
+      "url": "https://chat.zalo.me/",
+      "js": "https://www.google-analytics.com/analytics.js",
       "name": "main"
     }
   ]
